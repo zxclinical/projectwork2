@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Red Hat Text', sans-serif;
+    background-color: hsl(235, 16%, 14%);
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+img{
+    max-width: 100%;
+}
+.stars{
+    position: absolute;
+}
+.hills{
+    position: absolute;
+    bottom: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 65vh;
+    text-align: center;
+}
+.container h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+.countdown{
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.countdown div{
+    margin: 0px 20px;
+}
+.countdown h3{
+    color: hsl(237, 18%, 59%);
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 10px 0 0 0;
+}
+.countdown p{
+    padding: 20px;
+    background-color: hsl(236, 21%, 26%);
+    border-radius: 10px;
+    color: hsl(345, 95%, 68%);
+    font-size: 40px;
+    width: 100px;
+}
+.socials{
+    position: absolute;
+    bottom: 7%;
+    left: 50%;
+    z-index: 1;
+    transform: translateX(-50%);
+}
+.socials a{
+    color: hsl(237, 18%, 59%);
+    font-size: 25px;
+    margin: 0 25px;
+    transition: .75s;
+}
+.socials a:hover{
+    color: hsl(345, 95%, 68%);
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: hsl(237, 18%, 59%);
+}
+.attribution a { 
+    color: hsl(237, 18%, 59%); 
+    text-decoration: none;
+    transition: .75s;
+}
+.attribution a:hover{
+    color: hsl(345, 95%, 68%);
+}
+
+@media (max-width: 375px){
+    .container {
+        max-width: auto;
+        padding: 0 35px;
+    }
+    .container h1{
+        padding: 25px 0 0 0;
+    }
+    .socials {
+        bottom: 0;
+        width: 100%;
+    }
+    .attribution{
+        margin-top: 10px;
+    }
+    .countdown div{
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 800px){
+    .socials {
+        bottom: 2%;
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 1440px){
+    .stars img, .hills img{
+        width: 1920px;
+    }
+}
