@@ -73,7 +73,10 @@ img{
 .socials a:hover{
     color: hsl(345, 95%, 68%);
 }
-.attribution { 
+.attribution {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 11px; 
     text-align: center; 
     color: hsl(237, 18%, 59%);
