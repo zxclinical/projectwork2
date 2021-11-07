@@ -8,8 +8,8 @@ Thanks for checking out this front-end coding challenge.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/zxclinical/projectwork2)
-- Live Site URL: [Add live site URL here](https://zxclinical.github.io/projectwork2)
+- Solution URL: (https://github.com/zxclinical/projectwork2)
+- Live Site URL: (https://zxclinical.github.io/projectwork2)
 
 ## My process
 
