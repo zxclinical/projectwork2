@@ -94,7 +94,7 @@ img{
     transition: .75s;
 }
 .attribution a:hover{
-    color: hsl(345, 95%, 68%);
+    color: red;
 }
 
 @media (max-width: 400px){
