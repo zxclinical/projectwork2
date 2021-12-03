@@ -1,5 +1,5 @@
 const countdowwn = () => {
-	const comingDate = new Date("Dec 1, 2021 00:00:00").getTime();
+	const comingDate = new Date("Jan 1, 2021 00:00:00").getTime();
 	const currentDate = new Date().getTime();
 
 	const leftDate = comingDate - currentDate;
